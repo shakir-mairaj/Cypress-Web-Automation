@@ -1,7 +1,7 @@
 # Cypress-Web-Automation
 Cypress Web Automation- End to End Testing using JavaScript
 
-Installation
+**Installation**
 •	Download and install node js 
 (Node.js is a runtime environment that allows you to run JavaScript code outside of a web browser. In simple terms, it lets you use JavaScript to build server-side applications.)
 •	Download and install VS Code.
@@ -14,8 +14,25 @@ Installation
 •	The test files are called spec files in cypress
 •	To create spec file in cypress—create spec file and save.
 
-
-                               FOLDER STRUCTURE
+**End To End Testing**
+1.	Introduction and setting up environment
+2.	Write and Run tests in Cypress
+3.	CSS and xPath selectors
+4.	Assertions
+5.	Radio Button and Checkboxes
+6.	Dropdowns
+7.	Multiple windows/tabs
+8.	Tables
+9.	Frames
+10.	Mouse Actions
+11.	File Upload
+12.	Hooks and Tags
+13.	Fixtures
+14.	Data Driven Test
+15.	Navigation
+16.	Screenshots
+17.	Reports
+18.	Page Object Model Pattern
 
         
 
