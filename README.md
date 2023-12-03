@@ -14,6 +14,54 @@ Cypress Web Automation- End to End Testing using JavaScript
 •	The test files are called spec files in cypress
 •	To create spec file in cypress—create spec file and save.
 
+
+**SYNTAX**
+•	We can create spec file from VS code as well by creating a new file with extension cy.js eg: mytest.cy.js
+•	These 2 are the syntax for writing and executing test cases:
+
+•	 
+
+•	We can use arrow function => or we can use function keyword
+
+•	Spec file(cy.js)describe blocks(test suite)it blocks(tests)
+
+•	To run cypress tests—enter command npx cypress run (It will run all spec files)
+
+•	To run particular file enter npx cypress run  --spec –filenameandpath –headed
+
+•	To run in particular browser enter command npx cypress run  --browser chrome  
+
+•	 Add ///<reference types="Cypress" />   in commands.js file to add cypress library in all scripts by default
+
+**LOCATORS**
+
+•	Locators supported are: CSS and xPath
+
+•	cy.get(CSS Locator)
+
+•	CSS Selector: 
+
+•	tag id
+
+•	tag class
+
+•	tag attribute
+
+•	tag class attribute
+# tag is optional
+•	tag #id
+•	tag.class
+•	tag[attribute=’value’]
+•	tag.class[attribute=’value’]
+•	
+xPath:
+	To use xpath, install xpath plugin using command in terminal:
+	npm install -D @cypress/xpath 
+	Add /// <reference types="@cypress/xpath" />
+	Add require('@cypress/xpath') in e2e.js
+•	cy.xpath(Xpath)
+•	cy.xpath(xpath).xpath(xpath) – chained xpath
+
 **End To End Testing**
 1.	Introduction and setting up environment
 2.	Write and Run tests in Cypress
