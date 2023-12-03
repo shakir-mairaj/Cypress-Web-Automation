@@ -48,7 +48,7 @@ Cypress Web Automation- End to End Testing using JavaScript
 •	tag attribute
 
 •	tag class attribute
-# tag is optional
+--tag is optional
 •	tag #id
 •	tag.class
 •	tag[attribute=’value’]
@@ -62,7 +62,7 @@ xPath:
 •	cy.xpath(Xpath)
 •	cy.xpath(xpath).xpath(xpath) – chained xpath
 
-**End To End Testing**
+# End To End Testing
 1.	Introduction and setting up environment
 2.	Write and Run tests in Cypress
 3.	CSS and xPath selectors
